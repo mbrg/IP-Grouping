@@ -105,7 +105,7 @@ def example(L=4, S=8, format='slash'):
     """
     global BINARY_SIZE
     BINARY_SIZE = 3
-    points = ('0.0.0.3','0.0.0.5','0.0.0.6','0.0.0.7')
+    points = ('10.0.0.3','10.0.0.5','10.0.0.6','10.0.0.7')
     cover = FindMinCover(points, L, S, format)
     for i in cover: print(i)
 
