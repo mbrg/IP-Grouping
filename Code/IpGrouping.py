@@ -1,7 +1,5 @@
 """
 IP Grouping Algorithm
-
-Author: mibarg
 """
 
 import numpy as np
@@ -107,6 +105,6 @@ def example(L=4, S=8, format='slash'):
     BINARY_SIZE = 3
     points = ('10.0.0.3','10.0.0.5','10.0.0.6','10.0.0.7')
     cover = FindMinCover(points, L, S, format)
-    for i in cover: print(i)
-
+    for i in cover:
+        print(i)
 

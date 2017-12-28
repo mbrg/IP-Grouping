@@ -1,10 +1,8 @@
 """
-IP Manipulation functions
+IP Manipulation functions - Helper function for IpGrouping
 - String, Decimal and Binary format transformations
 - Astrix notation
 - Binary Intervals utils
-
-Author: mibarg
 """
 
 import math
