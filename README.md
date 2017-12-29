@@ -1,8 +1,6 @@
 # IP-Grouping algorithm
 
-A reference implementation of the IP-Grouping algorithm for IPv4, as decribed in:
-
-* Ref
+A Python implementation of the IP-Grouping algorithm for IPv4, as decribed in *Michael Bargury, Roy Levin and Royi Ronen, Learning to Customize Network Security Rules, [arXiv:1712.09795 [cs.CR, cs.LG]](https://arxiv.org/abs/1712.09795).*
 
 A usage example:
 ```python
